@@ -1,0 +1,114 @@
+$ history
+    1  git log
+    2  git status
+    3  ls
+    4  mkdir 1.txt
+    5  ls
+    6  cd 1.txt/
+    7  touch Readme.c
+    8  ls
+    9  vi Readme.c
+   10  cd ..
+   11  ls
+   12  git add 1.txt/Readme.c
+   13  git config -global core.autocrlf false
+   14  git config --global core.autocrlf false
+   15  git add 1.txt/Readme.c
+   16  git status
+   17  git commit -m "add new file Readme.c"
+   18  vi 1.txt/Readme.c
+   19  git add 1.txt/Readme.c
+   20  git commit -m 1.txt/Readme.c
+   21  git status
+   22  git log
+   23  vi 1.txt/Readme.c
+   24  git add 1.txt/Readme.c
+   25  git commit -m "mix include err"
+   26  git diff
+   27  git log
+   28  vi 1.txt/Readme.c
+   29  git diff
+   30  git add 1.txt/Readme.c
+   31  git diff --cached
+   32  git diff --staged
+   33  git diff
+   34  git difftool
+   35  vimdiff
+   36  git status
+   37  git commit -m "mix include 22to3"
+   38  git log
+   39  cd 1.txt/
+   40  ls
+   41  touch todo.c
+   42  touch end.c
+   43  touch frist.c
+   44  cd ..
+   45  git add 1.txt/frist.c
+   46  git commit -m "frist.c"
+   47  git add 1.txt/todo.c
+   48  git reset HEAD 1.txt/todo.c
+   49  git status
+   50  git add 1.txt/end.c 1.txt/todo.c
+   51  git commit --amend -m "add new file: end.c todo.c"
+   52  git log
+   53  git tag -a v0.1 -m "V1.0.000"
+   54  git tag
+   55  git log
+   56  git tag -a V1.0.000  9ac512 -m "V1.0.000 first push"
+   57  git tag
+   58  git remote add origin https://github.com/peter8080/usertest.git
+   59  git push -u origin master
+   60  git log
+   61  git tag
+   62  git remote add origin https://github.com/peter8080/usertest.git
+   63  git push -u origin master
+   64  git push -u origin master
+   65  git remote add origin https://github.com/peter8080/usertest.git
+   66  git push -u origin master
+   67  git remote add origin https://github.com/peter8080/IMX6U.git
+   68  git remote rm origin
+   69  git remote add origin https://github.com/peter8080/IMX6U.git
+   70  git push -u origin master
+   71  ls
+   72  cd 1.txt/
+   73  ls
+   74  ls
+   75  vi todo.c
+   76  vi frist.c
+   77  vi end.c
+   78  git status
+   79  git branch
+   80  git add end.c frist.c  todo.c
+   81  git status
+   82  git diff
+   83  git diff --staged
+   84  git commit -m "mix first todo end"
+   85  git push -u origin master
+   86  git remote -v
+   87  git push
+   88  git pull
+   89  git log
+   90  git branch
+   91  git checkout -b versionV0.01 6ae54e
+   92  ls
+   93  cd ..
+   94  ls
+   95  cd 1.txt/
+   96  ls
+   97  cat Readme.c
+   98  git branch master
+   99  git checkout master
+  100  ls
+  101  cat Readme.c
+  102  git checkout master
+  103  git checkout versionV0.01
+  104  ls
+  105  vi Readme.c
+  106  git add Readme.c
+  107  git diff --staged
+  108  git commit -m "test mix master (int) (void)"
+  109  git push
+  110  git remote -v
+  111  git push --set-upstream origin versionV0.01
+  112  git branch
+  113  history
