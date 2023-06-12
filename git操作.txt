@@ -163,3 +163,4 @@ If you wish to set tracking information for this branch you can do so with:
     git branch --set-upstream-to=origin/<branch> master
 
 ==4== t如果不做git add commit操作，直接push会怎么样
+会显示已经是最新的了
