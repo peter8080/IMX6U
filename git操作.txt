@@ -164,3 +164,18 @@ If you wish to set tracking information for this branch you can do so with:
 
 ==4== t如果不做git add commit操作，直接push会怎么样
 会显示已经是最新的了
+
+==5==
+$ git remote add origin https://github.com/peter8080/Linux_driver.git
+error: remote origin already exists.
+=>
+$ git remote rm origin //删除原先的链接
+$ git remote add origin https://github.com/peter8080/Linux_driver.git //增加链接
+
+==6==修改上传文件大小
+Total 199 (delta 97), reused 0 (delta 0), pack-reused 0
+fatal: the remote end hung up unexpectedly
+=>
+$ git config --local http.postBuffer 524288000
+
+==7==
